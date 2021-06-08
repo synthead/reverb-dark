@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name        Reverb Dark
+@namespace   synthead
+@version     1.0.0
+@homepageURL https://github.com/synthead/reverb-dark
+@supportURL  https://github.com/synthead/reverb-dark/issues
+@updateURL   https://github.com/synthead/reverb-dark/raw/master/reverb-dark.user.css
+@license     MIT
+@author      synthead
+==/UserStyle== */
+
+@-moz-document domain("reverb.com") {
+  /* Invert the site header and body wrapper */
+  .site-header,
+  .body-wrapper {
+    filter: invert(100%) hue-rotate(180deg);
+    background-color: white;
+  }
+
+  /* Use black background by default */
+  html {
+    background-color: black;
+  }
+
+  /* Don't change opacity when menu is open */
+  .category-flyout-header__underlay {
+    opacity: 0 !important;
+  }
+
+  .search-header__bg-image {
+    opacity: 0.25
+  }
+
+  /* Revert some color inverts (mostly for images) */
+  [style*="background"],
+  iframe,
+  img {
+    filter: invert(100%) hue-rotate(180deg) !important;
+  }
+
+  .feed-item__image-area {
+    border-bottom: 0;
+  }
+}
