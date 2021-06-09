@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Reverb Dark
 @namespace   synthead
-@version     1.0.4
+@version     1.0.5
 @homepageURL https://github.com/synthead/reverb-dark
 @supportURL  https://github.com/synthead/reverb-dark/issues
 @updateURL   https://github.com/synthead/reverb-dark/raw/master/reverb-dark.user.css
@@ -43,5 +43,18 @@
   /* Remove light borders under listing pictures */
   .feed-item__image-area {
     border-bottom: 0;
+  }
+}
+
+@-moz-document url("https://reverb.com/page/the-pedal-movie") {
+  div.video-embed,
+  div.video-container,
+  div.viewport-bleed .mlr-10 > img,
+  div.viewport-bleed .mlr-10 > a {
+    filter: invert(100%) hue-rotate(180deg) !important;
+  }
+
+  div.ptb-10 {
+    color: black;
   }
 }
