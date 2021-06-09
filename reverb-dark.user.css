@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Reverb Dark
 @namespace   synthead
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://github.com/synthead/reverb-dark
 @supportURL  https://github.com/synthead/reverb-dark/issues
 @updateURL   https://github.com/synthead/reverb-dark/raw/master/reverb-dark.user.css
@@ -34,8 +34,8 @@
 
   /* Revert some color inverts (mostly for images) */
   [style*="background"],
-  iframe,
   .site-header img,
+  div.video-embed,
   .body-wrapper img:not(.affirm-estimate-cta__logo) {
     filter: invert(100%) hue-rotate(180deg) !important;
   }
@@ -47,7 +47,7 @@
 }
 
 @-moz-document url("https://reverb.com/page/the-pedal-movie") {
-  div.video-embed,
+  div.video-embed__inner,
   div.video-container,
   div.viewport-bleed .mlr-10 > img,
   div.viewport-bleed .mlr-10 > a {
