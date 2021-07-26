@@ -20,7 +20,7 @@
   }
 
   /* Use black background by default */
-  body {
+  html, body {
     background-color: black;
   }
 
