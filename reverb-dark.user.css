@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Reverb Dark
 @namespace   synthead
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/synthead/reverb-dark
 @supportURL  https://github.com/synthead/reverb-dark/issues
 @updateURL   https://github.com/synthead/reverb-dark/raw/master/reverb-dark.user.css
@@ -18,7 +18,7 @@
   }
 
   /* Use black background by default */
-  html {
+  body {
     background-color: black;
   }
 
