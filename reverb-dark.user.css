@@ -12,7 +12,9 @@
 @-moz-document domain("reverb.com") {
   /* Invert the site header and body wrapper */
   .site-header,
-  .body-wrapper {
+  .body-wrapper,
+  .body-checkout > header,
+  .body-checkout > .site-wrapper {
     filter: invert(100%) hue-rotate(180deg);
     background-color: white;
   }
