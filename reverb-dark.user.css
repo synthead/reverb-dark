@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Reverb Dark
 @namespace   synthead
-@version     1.0.8
+@version     1.0.9
 @homepageURL https://github.com/synthead/reverb-dark
 @supportURL  https://github.com/synthead/reverb-dark/issues
 @updateURL   https://github.com/synthead/reverb-dark/raw/master/reverb-dark.user.css
@@ -11,7 +11,7 @@
 
 @-moz-document domain("reverb.com") {
   /* Invert the site header and body wrapper */
-  .site-header,
+  .reverb-header,
   .body-wrapper,
   .body-checkout > header,
   .body-checkout > .site-wrapper {
@@ -36,7 +36,7 @@
 
   /* Revert some color inverts (mostly for images) */
   [style*="background"],
-  .site-header img,
+  .reverb-header img,
   div.video-embed,
   .body-wrapper img:not(.affirm-estimate-cta__logo) {
     filter: invert(100%) hue-rotate(180deg) !important;
