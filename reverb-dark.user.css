@@ -38,6 +38,7 @@
   [style*="background"],
   .reverb-header img,
   div.video-embed,
+  div.payment-icon,
   .body-wrapper img:not(.affirm-estimate-cta__logo) {
     filter: invert(100%) hue-rotate(180deg) !important;
   }
