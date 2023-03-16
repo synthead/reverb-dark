@@ -37,6 +37,7 @@
   /* Revert some color inverts (mostly for images) */
   [style*="background"],
   .reverb-header img,
+  div.session-header,
   div.video-embed,
   div.payment-icon,
   div.lightbox-image-item__video-frame,
