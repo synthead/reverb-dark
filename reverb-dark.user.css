@@ -39,6 +39,7 @@
   .reverb-header img,
   div.video-embed,
   div.payment-icon,
+  div.lightbox-image-item__video-frame,
   .body-wrapper img:not(.affirm-estimate-cta__logo) {
     filter: invert(100%) hue-rotate(180deg) !important;
   }
